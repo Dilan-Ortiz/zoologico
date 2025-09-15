@@ -80,7 +80,7 @@ $result = mysqli_query($con, $sql);
             <form id="formulario" enctype="multipart/form-data" method="post">
                 <div class="mb-3">
                     <label for="documento" class="form-label">Documento</label>
-                    <input type="number" class="form-control" id="documento" name="documento" placeholder="Ej: Simba">
+                    <input type="number" class="form-control" id="documento" name="documento" placeholder="Ej: 1106227312">
                 </div>
                 <div class="mb-3">
                     <label for="nombre" class="form-label">Nombre</label>
@@ -92,7 +92,7 @@ $result = mysqli_query($con, $sql);
                 </div>
                 <div class="mb-3">
                     <label for="edad" class="form-label">Edad</label>
-                    <input type="number" class="form-control" id="edad" name="edad" placeholder="Ej: 3132688859">
+                    <input type="number" class="form-control" id="edad" name="edad" placeholder="Ej: 31">
                 </div>
                 <div class="mb-3">
                     <label for="correo" class="form-label">correo</label>
